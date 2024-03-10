@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
+    <title>Session 9 - Lanaria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <style>
+    footer {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    }
+  </style>
+
+  <body class="overflow-x-hidden" style="background-color: #F5F5F5">
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ms-5 text-light" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Title Container -->
+    <div class = "container-fluid p-0">
+        <div class="bg-image d-flex position-relative" style="background-image: url(https://i.pinimg.com/originals/58/74/77/587477dc2f5d0b1f0bf34b3c7341b4b2.jpg); background-size: cover; background-position: center; height: 35vh">
+            <div class="container">
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+                    <div class="container position-relative">
+                        <div class="row">
+                            <div class="col mt-5">
+                                <h1 class ="ms-5 text-light display-1">Singapore</h1>
+                                <p class = "ms-5 fs-3 text-light lead">Where tradition meets innovation in the heart of Asia</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-pills nav-fill bg-dark">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="Session9_Lanaria.html">Itineraries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active bg-light text-dark fw-semibold" aria-current="page">Cuisines</a>
+        </li>
+    </ul>
+
+    <!-- Carousel -->
+    <div class="container-fluid p-0 mt-5 position-relative">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="bg-dark position-absolute w-100 h-100" style="opacity: 0.5;"></div>
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://i.pinimg.com/originals/62/5b/ce/625bce4d01b90f9592b6371ba67452f1.jpg" class="d-block w-100" style="height: 65vh; object-fit: cover; opacity: 0.6">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                <div class="bg-dark position-absolute w-100 h-100" style="opacity: 0.5;"></div>
+                    <img src="https://kaizenaire.com/wp-content/uploads/2023/09/Best-Laksa-Paste-Brands-Our-Top-Picks-for-Authentic-Malaysian-Flavours-Singapore-1024x574.png" class="d-block w-100" style="height: 65vh; object-fit: cover;">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                <div class="bg-dark position-absolute w-100 h-100" style="opacity: 0.5;"></div>
+                    <img src="https://i.ytimg.com/vi/sC8qw9Ofz8Q/maxresdefault.jpg" class="d-block w-100" style="height: 65vh; object-fit: cover;">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <div class="bg-dark position-absolute w-100 h-100" style="opacity: 0.5;"></div>
+                        <img src="https://images.sbs.com.au/dims4/default/f2d3418/2147483647/strip/true/crop/1920x1080+0+101/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffood%2Fpublic%2Ftathra_8_of_8.jpg" class="d-block w-100" style="height: 65vh; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-caption text-light text-center text-md-start position-absolute top-50 start-50 translate-middle w-100">
+                <div class="container">
+                    <h2 class ="text-light fw-bold display-1">Endulging in Singapore Cuisine</h2>
+                    <p class ="text-light fs-3 lean">"Savor Singapore: A Culinary Journey Beyond Imagination!"</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <section class = "p-5">
+        <div class="display-3 pb-2 mb-4 text-black border-bottom border-black fw-semibold">
+          The Food Pillars of Singapore
+        </div>
+    </section>
+
+   <!-- Food Pillars Card -->
+  <section>
+    <div class="container mt-1">
+        <div class="row justify-content-center text-center g-4">
+            <div class="col-md-4">
+                <div class="card" style="width: 400px;">
+                    <img src="https://noodleoodle.co.in/wp-content/uploads/2021/10/8.jpg" class="card-img-top img-fluid" style="height: 35vh;">
+                    <div class="card-body">
+                        <h1 class = "display-6 fw-semibold">Noodles</h1>
+                        <p class="card-text">
+                            Noodles are a cornerstone of Singaporean cuisine, deeply rooted in its rich culinary heritage. From the aromatic flavors of laksa to the comforting warmth of bak chor mee, noodles embody the diverse cultural influences that define the city-state's food scene. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 400px;">
+                    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/4/1/1/LS-Library_Singapore-Style-Pork-Fried-Rice_s4x3.jpg.rend.hgtvcom.616.462.suffix/1522650028810.jpeg" class="card-img-top img-fluid" style="height: 35vh;">
+                    <div class="card-body">
+                        <h1 class = "display-6 fw-semibold">Rice</h1>
+                        <p class="card-text">
+                            Rice stands as an integral pillar of Singaporean gastronomy, serving as the cornerstone of many beloved dishes. From the fragrant allure of Hainanese chicken rice to the savory delights of nasi lemak, rice dishes reflect the cultural diversity and culinary craftsmanship of the nation. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 400px;">
+                    <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/healthy-spanish-garlic-shrimp.jpg" class="card-img-top img-fluid" style="height: 35vh;">
+                    <div class="card-body">
+                        <h1 class = "display-6 fw-semibold">Seafood</h1>
+                        <p class="card-text">
+                            Seafood holds a position in Singapore's culinary realm, celebrated for its freshness and diversity. From succulent chili crab to delicate steamed fish, the bounty of the sea graces tables across the island. Discover Singapore's seafood paradise, where fresh catches and culinary innovation collide. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+   <!-- Accordion for Cuisines -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-semibold fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoodles" aria-expanded="true" aria-controls="collapseNoodles">
+                            Noodles
+                        </button>
+                    </h2>
+                    <div id="collapseNoodles" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="background-color: #00001a">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <h1 class="display-4 pb-2 border-bottom fw-semibold border-warning text-warning">Noodle Cuisines of Singapore</h1>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://www.ajinomotofoodbizpartner.com.my/wp-content/uploads/2023/11/Char-Kuey-Teow-mobile-02-jpg.webp" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Kway Yeow</h2>
+                                        <p class="lead text-light mt-4">Kway Teow, a staple of Singaporean cuisine, embodies the essence of comfort and flavor in every bite. This beloved dish features flat rice noodles stir-fried with a medley of ingredients such as succulent shrimp, tender chicken, crisp bean sprouts, and savory soy sauce. Whether enjoyed at bustling hawker centers or upscale eateries, Kway Teow delights locals and visitors alike with its aromatic blend of spices and textures, making it an essential part of the culinary tapestry of Singapore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container mt-1">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://amiablefoods.com/wp-content/uploads/laksa-1000.jpg" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Laksa Noodles</h2>
+                                        <p class="lead text-light mt-4">Laksa noodles, a quintessential dish in Singapore's culinary repertoire, offer a tantalizing fusion of flavors and aromas. This spicy and aromatic noodle soup features a rich coconut milk broth infused with a harmonious blend of herbs and spices, including lemongrass, galangal, and chili. Laden with plump shrimp, tender chicken, tofu puffs, and bean sprouts, laksa noodles deliver a symphony of textures and tastes that captivate the senses with each slurp. Whether enjoyed in bustling hawker centers or refined restaurants, laksa noodles embody the vibrant and diverse culinary landscape of Singapore, earning their place as a beloved comfort food among locals and visitors alike.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-semibold fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRice" aria-expanded="true" aria-controls="collapseRice">
+                            Rice
+                        </button>
+                    </h2>
+                    <div id="collapseRice" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="background-color: #00001a">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <h1 class="display-4 pb-2 border-bottom fw-semibold border-danger text-danger">Rice Cuisines of Singapore</h1>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://d1ef7ke0x2i9g8.cloudfront.net/hong-kong/BEST_HAINANESE_CHICKEN_IN_SINGAPORE.jpg" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Hainanese Chicken Rice</h2>
+                                        <p class="lead text-light mt-4">Hainanese Chicken Rice, an iconic dish in Singapore, is a delectable symphony of tender poached chicken, fragrant rice, and flavorful condiments. This beloved comfort food features succulent chicken, poached to perfection, served atop fragrant rice cooked in chicken broth and pandan leaves. Accompanied by a medley of tangy chili sauce, piquant ginger paste, and refreshing cucumber slices, Hainanese Chicken Rice tantalizes taste buds with its harmonious blend of flavors and textures. Whether enjoyed at a bustling hawker stall or a cozy restaurant, this culinary masterpiece captures the essence of Singapore's diverse food culture, leaving diners craving more with every bite.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container mt-1">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://www.yumchinesefood.com/images/upload/2019/11/4/claypot-rice.jpg" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Bao Zai Fan</h2>
+                                        <p class="lead text-light mt-4">Bao Zai Fan, a beloved dish in Singapore, offers a delightful mix of savory toppings atop fragrant steamed rice. Featuring braised pork belly, stewed tofu, soy-braised eggs, and vegetables, it's a comforting and satisfying meal enjoyed across the city. Whether at a hawker center or a neighborhood eatery, Bao Zai Fan captures the essence of Singapore's culinary diversity with its rich flavors and simple yet satisfying appeal.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-semibold fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeafood" aria-expanded="true" aria-controls="collapseSeafood">
+                            Seafood
+                        </button>
+                    </h2>
+                    <div id="collapseSeafood" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="background-color: #00001a">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <h1 class="display-4 pb-2 border-bottom fw-semibold border-success text-success">Seafood Cuisines of Singapore</h1>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://i0.wp.com/kitchentigress.com/wp-content/uploads/2022/09/stingray-bbq-08-10-43.jpg?fit=1575%2C1195&ssl=1" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Sambal Stingray</h2>
+                                        <p class="lead text-light mt-4">Sambal Stingray, a quintessential dish in Singapore's culinary scene, showcases tender stingray grilled to perfection and smothered in spicy sambal sauce. This flavorful delicacy, often wrapped in banana leaves, offers a tantalizing blend of heat and smokiness that delights the taste buds. Whether savored at a bustling hawker stall by the waterfront or a cozy seafood restaurant, Sambal Stingray embodies the vibrant flavors and seaside charm of Singapore, making it a must-try dish for locals and visitors alike.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container mt-1">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="https://images.sbs.com.au/dims4/default/23c41cd/2147483647/strip/true/crop/1500x844+0+108/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffood%2Fpublic%2Frx078_hot_and_spicy_3_of_6_r.jpg" class="img-fluid mt-3 mx-3" style="max-width: 100%; max-height: 90%">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-6 text-light mt-3 fw-semibold">Chilli Crab</h2>
+                                        <p class="lead text-light mt-4">Chilli Crab, an iconic dish of Singapore, presents succulent crab cooked in a spicy and tangy tomato-based sauce that's as flavorful as it is unforgettable. This culinary masterpiece is a harmonious blend of sweet and savory flavors, served with pillowy mantou buns perfect for soaking up every last drop of sauce. Whether enjoyed at a bustling seafood restaurant or a cozy hawker stall, Chilli Crab epitomizes the city's rich culinary heritage and is a true delight for seafood lovers everywhere.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="display-3 pb-2 mb-4 mx-5 mt-5 text-black border-bottom border-black fw-semibold">
+            Famous Restaurants in Singapore
+        </div>
+  
+    <!-- Restaurant Cards -->
+    <section style="background-color: #00001a">
+        <div class="container">
+            <div class="card">
+                <div class="container">
+                    <div class="card-header display-3 fw-semibold bg-danger text-light text-center">
+                    La Dame De Pic
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/190/2019/06/30073325/La-Dame-de-Pic-Raffles-Singapore-5-1800x1100.jpg" class="img-fluid mt-3" style="max-width:100%;">
+                    <h2 class="card-title mt-5 mx-3 fw-bold">Address:</h2>
+                    <p class="lean fs-5 mx-5">1 Beach Rd, Singapore 189673</p>
+                    <h2 class="card-title mt-5 mx-3 fw-bold">Description:</h2>
+                    <p class="lean fs-5 mx-5">La Dame de Pic Singapore is a culinary gem nestled within the vibrant dining scene of Singapore. Helmed by acclaimed French chef Anne-Sophie Pic, the restaurant offers an exquisite dining experience that combines traditional French techniques with innovative flavors and seasonal ingredients. From meticulously crafted dishes to an elegant ambiance, La Dame de Pic captivates diners with its artful presentation and culinary creativity. Whether indulging in the delicate flavors of a signature dish or savoring a bespoke tasting menu, guests are treated to an unforgettable gastronomic journey that reflects the essence of haute cuisine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="card">
+                <div class="container">
+                    <div class="card-header display-3 fw-semibold bg-danger text-light text-center">
+                    Fiz
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="https://static1.businesstimes.com.sg/s3fs-public/articles/2023/06/29/restaurant20fiz20interiors_1.jpg" class="img-fluid mt-3" style="max-width:100%;">
+                    <h2 class="card-title mt-5 mx-3 fw-bold">Address:</h2>
+                    <p class="lean fs-5 mx-5">21 Tg Pagar Rd, #01-01/02 Next to the Fairfield Methodist Church, Singapore 088444</p>
+                    <h2 class="card-title mt-5 mx-3 fw-bold">Description:</h2>
+                    <p class="lean fs-5 mx-5">FIZ Singapore is a dynamic and chic rooftop bar nestled in the heart of the city, offering breathtaking views of the iconic Marina Bay skyline. With its stylish ambiance and vibrant atmosphere, FIZ is the perfect destination for those seeking a sophisticated yet lively nightlife experience. Guests can indulge in a curated selection of craft cocktails, fine wines, and artisanal spirits expertly crafted by skilled mixologists. Whether enjoying drinks with friends against the backdrop of the glittering cityscape or soaking in the energetic vibes of the live music performances, FIZ promises an unforgettable evening of relaxation and revelry in Singapore's bustling metropolis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <footer>
+        Made by Kreian Lanaria | BIT32
+    </footer>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
+
